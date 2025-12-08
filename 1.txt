@@ -24,40 +24,6 @@ This application provides an intelligent system for classifying skin lesions int
 - 📄 **PDF Reports**: Generate downloadable PDF reports for test results
 - 💾 **Database Integration**: SQLite database for user and test data persistence
 
-## Application Screenshots
-
-### Landing Page
-The welcoming interface introducing users to Epi Scan's AI-powered skin lesion classification system.
-
-![Landing Page](screenshots/01-landing-page.png)
-
-### User Authentication
-
-#### Login
-Secure login interface for registered users.
-
-![Login Page](screenshots/02-login.png)
-
-#### Registration
-Account creation page for new users.
-
-![Registration Page](screenshots/03-registration.png)
-
-### Home Page
-Information about skin cancer types and the classification system.
-
-![Home Page](screenshots/04-home-page.png)
-
-### Image Upload
-Upload interface where users can submit skin lesion images for analysis.
-
-![Upload Page](screenshots/05-upload.png)
-
-### Diagnosis Report
-Comprehensive results page showing AI classification, confidence scores, and downloadable PDF reports.
-
-![Diagnosis Report](screenshots/06-diagnosis-report.png)
-
 ## Project Structure
 
 ```
@@ -97,13 +63,6 @@ skin/
 │   ├── nv/                         # NV samples
 │   ├── mel/                        # MEL samples
 │   └── vasc/                       # VASC samples
-├── screenshots/                    # Application screenshots
-│   ├── 01-landing-page.png
-│   ├── 02-login.png
-│   ├── 03-registration.png
-│   ├── 04-home-page.png
-│   ├── 05-upload.png
-│   └── 06-diagnosis-report.png
 ├── instance/                       # Flask instance folder (SQLite database)
 └── __pycache__/                    # Python cache
 
